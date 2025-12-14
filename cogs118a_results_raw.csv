@@ -1,0 +1,82 @@
+dataset,type,split,train_size,test_size,trial_seed,classifier,train_accuracy,val_accuracy,test_accuracy,best_params
+breast_cancer,numeric,20_80,0.2,0.8,0,log_reg,0.9646017699115044,0.9559032716927454,0.9276315789473685,{'clf__C': 0.1}
+breast_cancer,numeric,20_80,0.2,0.8,0,svm_rbf,0.9557522123893806,0.9559032716927454,0.9364035087719298,"{'clf__C': 10, 'clf__gamma': 0.001}"
+breast_cancer,numeric,20_80,0.2,0.8,0,random_forest,1.0,0.9208155523944997,0.9298245614035088,"{'clf__max_depth': None, 'clf__n_estimators': 100}"
+breast_cancer,numeric,20_80,0.2,0.8,1,log_reg,0.9823008849557522,0.9736842105263158,0.9539473684210527,{'clf__C': 0.01}
+breast_cancer,numeric,20_80,0.2,0.8,1,svm_rbf,1.0,0.9649122807017544,0.9692982456140351,"{'clf__C': 10, 'clf__gamma': 0.01}"
+breast_cancer,numeric,20_80,0.2,0.8,1,random_forest,1.0,0.9383594120436225,0.9166666666666666,"{'clf__max_depth': None, 'clf__n_estimators': 100}"
+breast_cancer,numeric,20_80,0.2,0.8,2,log_reg,0.9823008849557522,0.9646752015173069,0.9758771929824561,{'clf__C': 0.1}
+breast_cancer,numeric,20_80,0.2,0.8,2,svm_rbf,0.9823008849557522,0.9471313418681838,0.9605263157894737,"{'clf__C': 100, 'clf__gamma': 0.001}"
+breast_cancer,numeric,20_80,0.2,0.8,2,random_forest,1.0,0.920104314841157,0.956140350877193,"{'clf__max_depth': None, 'clf__n_estimators': 100}"
+breast_cancer,numeric,50_50,0.5,0.5,0,log_reg,0.9823943661971831,0.9683463979096678,0.9614035087719298,{'clf__C': 0.1}
+breast_cancer,numeric,50_50,0.5,0.5,0,svm_rbf,0.9894366197183099,0.9753266144083613,0.9649122807017544,"{'clf__C': 10, 'clf__gamma': 0.01}"
+breast_cancer,numeric,50_50,0.5,0.5,0,random_forest,1.0,0.9437476670399403,0.9543859649122807,"{'clf__max_depth': None, 'clf__n_estimators': 100}"
+breast_cancer,numeric,50_50,0.5,0.5,1,log_reg,0.9964788732394366,0.9893990294886151,0.9754385964912281,{'clf__C': 1}
+breast_cancer,numeric,50_50,0.5,0.5,1,svm_rbf,0.9964788732394366,0.9859275849197462,0.968421052631579,"{'clf__C': 100, 'clf__gamma': 0.01}"
+breast_cancer,numeric,50_50,0.5,0.5,1,random_forest,1.0,0.9577827547592385,0.9543859649122807,"{'clf__max_depth': None, 'clf__n_estimators': 100}"
+breast_cancer,numeric,50_50,0.5,0.5,2,log_reg,0.9894366197183099,0.9894736842105263,0.968421052631579,{'clf__C': 0.1}
+breast_cancer,numeric,50_50,0.5,0.5,2,svm_rbf,0.9929577464788732,0.9859649122807017,0.9719298245614035,"{'clf__C': 10, 'clf__gamma': 0.01}"
+breast_cancer,numeric,50_50,0.5,0.5,2,random_forest,0.9964788732394366,0.9649122807017543,0.9543859649122807,"{'clf__max_depth': 5, 'clf__n_estimators': 200}"
+breast_cancer,numeric,80_20,0.8,0.2,0,log_reg,0.9868131868131869,0.9780120831881027,0.9649122807017544,{'clf__C': 0.1}
+breast_cancer,numeric,80_20,0.8,0.2,0,svm_rbf,0.9912087912087912,0.9780120831881027,0.9649122807017544,"{'clf__C': 10, 'clf__gamma': 0.01}"
+breast_cancer,numeric,80_20,0.8,0.2,0,random_forest,1.0,0.9692111072382943,0.9473684210526315,"{'clf__max_depth': None, 'clf__n_estimators': 100}"
+breast_cancer,numeric,80_20,0.8,0.2,1,log_reg,0.9868131868131869,0.9802195887068664,0.9824561403508771,{'clf__C': 0.1}
+breast_cancer,numeric,80_20,0.8,0.2,1,svm_rbf,1.0,0.9692546764261648,0.9298245614035088,"{'clf__C': 10, 'clf__gamma': 0.1}"
+breast_cancer,numeric,80_20,0.8,0.2,1,random_forest,1.0,0.9516236784013014,0.956140350877193,"{'clf__max_depth': None, 'clf__n_estimators': 100}"
+breast_cancer,numeric,80_20,0.8,0.2,2,log_reg,0.989010989010989,0.9780120831881027,0.9649122807017544,{'clf__C': 1}
+breast_cancer,numeric,80_20,0.8,0.2,2,svm_rbf,0.989010989010989,0.9780411293133495,0.9736842105263158,"{'clf__C': 100, 'clf__gamma': 0.001}"
+breast_cancer,numeric,80_20,0.8,0.2,2,random_forest,1.0,0.9560822586266992,0.9473684210526315,"{'clf__max_depth': None, 'clf__n_estimators': 200}"
+spambase,numeric,20_80,0.2,0.8,0,log_reg,0.9521739130434783,0.9271749235343792,0.9041021461559359,{'clf__C': 10}
+spambase,numeric,20_80,0.2,0.8,0,svm_rbf,0.9554347826086956,0.929342927905871,0.9144254278728606,"{'clf__C': 100, 'clf__gamma': 0.001}"
+spambase,numeric,20_80,0.2,0.8,0,random_forest,1.0,0.947829511826446,0.9353436566150503,"{'clf__max_depth': None, 'clf__n_estimators': 200}"
+spambase,numeric,20_80,0.2,0.8,1,log_reg,0.9326086956521739,0.9162923222129966,0.9127954360228199,{'clf__C': 1}
+spambase,numeric,20_80,0.2,0.8,1,svm_rbf,0.9445652173913044,0.9206460723992818,0.9198587340396631,"{'clf__C': 100, 'clf__gamma': 0.001}"
+spambase,numeric,20_80,0.2,0.8,1,random_forest,1.0,0.9489117398678616,0.9315403422982885,"{'clf__max_depth': None, 'clf__n_estimators': 100}"
+spambase,numeric,20_80,0.2,0.8,2,log_reg,0.9358695652173913,0.9239175945441515,0.9176854115729421,{'clf__C': 0.1}
+spambase,numeric,20_80,0.2,0.8,2,svm_rbf,0.9510869565217391,0.9304428973905884,0.9176854115729421,"{'clf__C': 100, 'clf__gamma': 0.001}"
+spambase,numeric,20_80,0.2,0.8,2,random_forest,0.9989130434782608,0.9391291080311964,0.9377886443901113,"{'clf__max_depth': 20, 'clf__n_estimators': 200}"
+spambase,numeric,50_50,0.5,0.5,0,log_reg,0.9304347826086956,0.9213079113065836,0.930465015210778,{'clf__C': 10}
+spambase,numeric,50_50,0.5,0.5,0,svm_rbf,0.9447826086956522,0.9269616003031943,0.9330725771403737,"{'clf__C': 100, 'clf__gamma': 0.001}"
+spambase,numeric,50_50,0.5,0.5,0,random_forest,0.9995652173913043,0.9400039487883007,0.9561060408518036,"{'clf__max_depth': None, 'clf__n_estimators': 200}"
+spambase,numeric,50_50,0.5,0.5,1,log_reg,0.9321739130434783,0.9217396681883119,0.9178617992177314,{'clf__C': 1}
+spambase,numeric,50_50,0.5,0.5,1,svm_rbf,0.9508695652173913,0.9330391032165605,0.930465015210778,"{'clf__C': 100, 'clf__gamma': 0.001}"
+spambase,numeric,50_50,0.5,0.5,1,random_forest,1.0,0.9456502621745796,0.9469795740982182,"{'clf__max_depth': None, 'clf__n_estimators': 200}"
+spambase,numeric,50_50,0.5,0.5,2,log_reg,0.9373913043478261,0.915227571620013,0.9287266405910474,{'clf__C': 100}
+spambase,numeric,50_50,0.5,0.5,2,svm_rbf,0.9482608695652174,0.928704513760052,0.9361147327249022,"{'clf__C': 100, 'clf__gamma': 0.001}"
+spambase,numeric,50_50,0.5,0.5,2,random_forest,1.0,0.9452207747114151,0.9469795740982182,"{'clf__max_depth': None, 'clf__n_estimators': 200}"
+spambase,numeric,80_20,0.8,0.2,0,log_reg,0.933695652173913,0.9241883167963169,0.9315960912052117,{'clf__C': 100}
+spambase,numeric,80_20,0.8,0.2,0,svm_rbf,0.946195652173913,0.9320668323248923,0.9478827361563518,"{'clf__C': 100, 'clf__gamma': 0.001}"
+spambase,numeric,80_20,0.8,0.2,0,random_forest,0.9940217391304348,0.9497292875145195,0.9489685124864278,"{'clf__max_depth': 20, 'clf__n_estimators': 100}"
+spambase,numeric,80_20,0.8,0.2,1,log_reg,0.9290760869565218,0.9263603097427687,0.9315960912052117,{'clf__C': 100}
+spambase,numeric,80_20,0.8,0.2,1,svm_rbf,0.9475543478260869,0.935598924506737,0.9402823018458197,"{'clf__C': 100, 'clf__gamma': 0.001}"
+spambase,numeric,80_20,0.8,0.2,1,random_forest,0.9942934782608696,0.9502732828913344,0.9511400651465798,"{'clf__max_depth': 20, 'clf__n_estimators': 100}"
+spambase,numeric,80_20,0.8,0.2,2,log_reg,0.9353260869565218,0.9266310887042629,0.9348534201954397,{'clf__C': 100}
+spambase,numeric,80_20,0.8,0.2,2,svm_rbf,0.9489130434782609,0.9331521640379835,0.9424538545059717,"{'clf__C': 100, 'clf__gamma': 0.001}"
+spambase,numeric,80_20,0.8,0.2,2,random_forest,0.9994565217391305,0.9494574006194677,0.9511400651465798,"{'clf__max_depth': None, 'clf__n_estimators': 200}"
+mushroom,categorical,20_80,0.2,0.8,0,log_reg,1.0,0.9981515711645103,0.9987692307692307,{'clf__C': 1}
+mushroom,categorical,20_80,0.2,0.8,0,svm_rbf,1.0,0.9981515711645103,0.9987692307692307,"{'clf__C': 1, 'clf__gamma': 0.1}"
+mushroom,categorical,20_80,0.2,0.8,0,random_forest,1.0,0.9981515711645103,0.9987692307692307,"{'clf__max_depth': None, 'clf__n_estimators': 100}"
+mushroom,categorical,20_80,0.2,0.8,1,log_reg,1.0,0.998152707959612,0.9993846153846154,{'clf__C': 10}
+mushroom,categorical,20_80,0.2,0.8,1,svm_rbf,1.0,0.9987677141096735,0.9993846153846154,"{'clf__C': 1, 'clf__gamma': 0.1}"
+mushroom,categorical,20_80,0.2,0.8,1,random_forest,1.0,0.9987677141096735,1.0,"{'clf__max_depth': None, 'clf__n_estimators': 100}"
+mushroom,categorical,20_80,0.2,0.8,2,log_reg,1.0,1.0,1.0,{'clf__C': 100}
+mushroom,categorical,20_80,0.2,0.8,2,svm_rbf,1.0,1.0,1.0,"{'clf__C': 100, 'clf__gamma': 0.01}"
+mushroom,categorical,20_80,0.2,0.8,2,random_forest,1.0,1.0,1.0,"{'clf__max_depth': None, 'clf__n_estimators': 200}"
+mushroom,categorical,50_50,0.5,0.5,0,log_reg,1.0,0.999507631708518,0.999507631708518,{'clf__C': 100}
+mushroom,categorical,50_50,0.5,0.5,0,svm_rbf,1.0,0.999507631708518,1.0,"{'clf__C': 1, 'clf__gamma': 0.1}"
+mushroom,categorical,50_50,0.5,0.5,0,random_forest,1.0,0.999507631708518,1.0,"{'clf__max_depth': None, 'clf__n_estimators': 100}"
+mushroom,categorical,50_50,0.5,0.5,1,log_reg,1.0,1.0,1.0,{'clf__C': 10}
+mushroom,categorical,50_50,0.5,0.5,1,svm_rbf,1.0,1.0,1.0,"{'clf__C': 10, 'clf__gamma': 0.1}"
+mushroom,categorical,50_50,0.5,0.5,1,random_forest,1.0,1.0,1.0,"{'clf__max_depth': None, 'clf__n_estimators': 100}"
+mushroom,categorical,50_50,0.5,0.5,2,log_reg,1.0,1.0,1.0,{'clf__C': 10}
+mushroom,categorical,50_50,0.5,0.5,2,svm_rbf,1.0,1.0,1.0,"{'clf__C': 1, 'clf__gamma': 0.1}"
+mushroom,categorical,50_50,0.5,0.5,2,random_forest,1.0,1.0,1.0,"{'clf__max_depth': None, 'clf__n_estimators': 100}"
+mushroom,categorical,80_20,0.8,0.2,0,log_reg,1.0,1.0,1.0,{'clf__C': 10}
+mushroom,categorical,80_20,0.8,0.2,0,svm_rbf,1.0,1.0,1.0,"{'clf__C': 1, 'clf__gamma': 0.1}"
+mushroom,categorical,80_20,0.8,0.2,0,random_forest,1.0,1.0,1.0,"{'clf__max_depth': None, 'clf__n_estimators': 100}"
+mushroom,categorical,80_20,0.8,0.2,1,log_reg,1.0,1.0,1.0,{'clf__C': 10}
+mushroom,categorical,80_20,0.8,0.2,1,svm_rbf,1.0,1.0,1.0,"{'clf__C': 1, 'clf__gamma': 0.1}"
+mushroom,categorical,80_20,0.8,0.2,1,random_forest,1.0,1.0,1.0,"{'clf__max_depth': None, 'clf__n_estimators': 100}"
+mushroom,categorical,80_20,0.8,0.2,2,log_reg,1.0,1.0,1.0,{'clf__C': 10}
+mushroom,categorical,80_20,0.8,0.2,2,svm_rbf,1.0,1.0,1.0,"{'clf__C': 1, 'clf__gamma': 0.1}"
+mushroom,categorical,80_20,0.8,0.2,2,random_forest,1.0,1.0,1.0,"{'clf__max_depth': None, 'clf__n_estimators': 100}"
